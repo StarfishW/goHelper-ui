@@ -1,0 +1,23 @@
+{
+  "name": "gohelperUI",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Wails Template",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "StarfishW",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=15.0.0",
+    "npm": ">=7.0.0"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "element-plus": "^2.2.15"
+  }
+}
